@@ -66,7 +66,7 @@ class CustomHeader extends StatelessWidget {
             children: [
               Text(
                 getRoleText(),
-                style: const TextStyle(color: Colors.white, fontSize: 18),
+                style: const TextStyle(color: Colors.white, fontSize: 16),
               ), //User Role
               const SizedBox(width: 15),
               const CircleAvatar(
